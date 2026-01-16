@@ -244,51 +244,16 @@ function App() {
           <div className="skills-showcase">
             <h3 className="skills-title">Technical Skills</h3>
             <div className="skills-container">
-              <div className="skill-item">
-                <div className="skill-name">React & JavaScript</div>
-                <div className="skill-bar">
-                  <div
-                    className="skill-progress"
-                    style={{ width: "90%" }}
-                  ></div>
-                </div>
-              </div>
-              <div className="skill-item">
-                <div className="skill-name">System Architecture</div>
-                <div className="skill-bar">
-                  <div
-                    className="skill-progress"
-                    style={{ width: "85%" }}
-                  ></div>
-                </div>
-              </div>
-              <div className="skill-item">
-                <div className="skill-name">Linux Administration</div>
-                <div className="skill-bar">
-                  <div
-                    className="skill-progress"
-                    style={{ width: "88%" }}
-                  ></div>
-                </div>
-              </div>
-              <div className="skill-item">
-                <div className="skill-name">Database Management</div>
-                <div className="skill-bar">
-                  <div
-                    className="skill-progress"
-                    style={{ width: "82%" }}
-                  ></div>
-                </div>
-              </div>
-              <div className="skill-item">
-                <div className="skill-name">DevOps & CI/CD</div>
-                <div className="skill-bar">
-                  <div
-                    className="skill-progress"
-                    style={{ width: "80%" }}
-                  ></div>
-                </div>
-              </div>
+              <div className="skill-tag">React & JavaScript</div>
+              <div className="skill-tag">System Architecture</div>
+              <div className="skill-tag">Linux Administration</div>
+              <div className="skill-tag">Database Management</div>
+              <div className="skill-tag">DevOps & CI/CD</div>
+              <div className="skill-tag">Python</div>
+              <div className="skill-tag">Git & Version Control</div>
+              <div className="skill-tag">API Development</div>
+              <div className="skill-tag">Cloud Services</div>
+              <div className="skill-tag">Docker & Kubernetes</div>
             </div>
           </div>
 
