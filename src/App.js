@@ -30,19 +30,19 @@ function App() {
         </button>
         <div className={`nav-links ${menuOpen ? 'open' : ''}`}>
           <button onClick={() => scrollToSection('home')} className={activeSection === 'home' ? 'active' : ''}>
-            // home
+            {'// home'}
           </button>
           <button onClick={() => scrollToSection('expertise')} className={activeSection === 'expertise' ? 'active' : ''}>
-            // expertise
+            {'// expertise'}
           </button>
           <button onClick={() => scrollToSection('work')} className={activeSection === 'work' ? 'active' : ''}>
-            // work
+            {'// work'}
           </button>
           <button onClick={() => scrollToSection('experience')} className={activeSection === 'experience' ? 'active' : ''}>
-            // experience
+            {'// experience'}
           </button>
           <button onClick={() => scrollToSection('contact')} className={activeSection === 'contact' ? 'active' : ''}>
-            // contact
+            {'// contact'}
           </button>
         </div>
       </nav>
@@ -65,7 +65,7 @@ function App() {
 
       <section id="expertise" className="section">
         <div className="container">
-          <h2 className="section-title">// expertise</h2>
+          <h2 className="section-title">{'// expertise'}</h2>
           <div className="expertise-grid">
             <div className="expertise-card">
               <h3>Software Development</h3>
@@ -85,7 +85,7 @@ function App() {
 
       <section id="work" className="section section-alt">
         <div className="container">
-          <h2 className="section-title">// work</h2>
+          <h2 className="section-title">{'// work'}</h2>
           <div className="work-grid">
             <div className="work-card">
               <h3>System Solutions</h3>
@@ -105,7 +105,7 @@ function App() {
 
       <section id="experience" className="section">
         <div className="container">
-          <h2 className="section-title">// experience</h2>
+          <h2 className="section-title">{'// experience'}</h2>
           <div className="experience-timeline">
             <div className="timeline-item">
               <div className="timeline-dot"></div>
@@ -129,7 +129,7 @@ function App() {
 
       <section id="contact" className="section section-alt">
         <div className="container">
-          <h2 className="section-title">// contact</h2>
+          <h2 className="section-title">{'// contact'}</h2>
           <div className="contact-content">
             <p className="contact-text">Let's work together on your next project</p>
             <div className="contact-links">
