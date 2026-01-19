@@ -536,6 +536,14 @@
   border-radius: 5px;
   font-size: 1.1rem;
   transition: all 0.3s;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.contact-btn svg {
+  width: 20px;
+  height: 20px;
 }
 
 .contact-btn:hover {
@@ -594,13 +602,26 @@
 }
 
 .social-links a {
-  font-size: 1.5rem;
-  transition: transform 0.3s;
-  display: inline-block;
+  transition: transform 0.3s, color 0.3s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(79, 195, 247, 0.1);
+  color: #4fc3f7;
+}
+
+.social-links a svg {
+  width: 20px;
+  height: 20px;
 }
 
 .social-links a:hover {
   transform: translateY(-3px);
+  background: #4fc3f7;
+  color: #0a1628;
 }
 
 .footer-bottom {
